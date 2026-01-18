@@ -1,0 +1,119 @@
+:root{
+    --bg:#0b0b0c;
+    --surface:#111215;
+    --panel:#151618;
+    --muted:#2e3032;
+    --text:#f3f4f5;
+    --muted-text:#a7adb2;
+    --accent:#ff6b6b;
+    --accent-2:#ffb86b;
+    --glass: rgba(255,255,255,0.03);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+    
+.XD{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:12px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+
+.parteArriba {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #0b0b0b;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: 1px solid #222;
+}
+
+.parteArriba h1 { font-size: 18px; margin: 0; }
+
+
+.sideBar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #0f0f10;
+    padding: 12px;
+}
+
+.sideBar a { display: block; color: #cfcfcf; text-decoration: none; padding: 8px; border-radius: 6px; }
+.sideBar a:hover { background-color: #1a1a1a; color: #fff; }
+
+
+.mainContent {
+    margin-top: 72px; 
+    margin-left: 220px; 
+    padding: 16px;
+}
+
+
+.card {
+    background-color: #151515;
+    border: 1px solid #222;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+h2, h3 { margin: 6px 0; }
+p, ul { color: #d0d0d0; }
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #ff6b6b;
+    color: #080808;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+
+.mainContent > section {
+    border-top: 3px solid #2a2a2a;
+    padding: 24px 18px;
+    margin-top: 28px;
+    border-radius: 8px;
+    background-color: rgba(255,255,255,0.01);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+
+
+
+.mainContent > section:first-child {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
